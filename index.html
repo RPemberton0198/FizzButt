@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Psuedo Coding-->
+    <!--print the numbers 1-47 in the counsole
+          If the number is a multiplier of 3
+               print FIZZ instead of the number. 
+          If the number is a multiple of 7 
+               print BUTT instead of the number.
+          If the number is BOTH a multiple of 3 and of 7
+               print FIZZBUTT 
+Print 1-47 in the console 
+IF the number is divisible by 3 print BUTT
+IF the number is divisible by 7 print FIZZ
+IF the number is divisible by 3 and 7 print FIZZBUTT 
+ELSEwise print the number
+
+If x is declared outside function it will be global and accesible outside function. If x is declared inside the function {}, x is no longer accesible globally, thus program fails.         
+               (outside)
+                    let x = "";
+                         for (x = 1; x < 48; x++) {
+                         if (x % 3 == 0 && x % 7 == 0) {
+                         console.log("buttfizz");
+                         } 
+               (inside)
+                         for (let x = 1; x < 48; x++) {
+                         if (x % 3 == 0 && x % 7 == 0) {
+                         console.log("buttfizz");
+                         } -->
+
+    <!--<script src= "code.js</script>"
+               
+     
+               JS remainder operation
+     
+     Use to display 
+document.querySelector("#displayAll").innerHTML += "ButtFizz<br>";
+document.querySelector("#displayAll").innerHTML += "Butt<br>";
+document.querySelector("#displayAll").innerHTML += "Fizz<br>";
+
+     Use add <style></style>
+before function
+     let msg = "";(place globally outside function)
+inside function
+     msg += "<span class='buttfizz'>ButtFizz</span><br>";
+     msg += x + "<br>";
+afterfunction
+     document.querySelector("#displayAll").innerHTML = msg;
+     document.querySelectorAll (".buttfizz").
+     style.color =   
+-->
+
+    <script>
+      for (x = 1; x < 48; x++) {
+        if (x % 3 == 0 && x % 7 == 0) {
+          console.log("buttfizz");
+        } else if (x % 3 == 0) {
+          console.log("fizz");
+        } else if (x % 7 == 0) {
+          console.log("butt");
+        } else {
+          console.log(x);
+        }
+      }
+    </script>
+  </body>
+</html>
