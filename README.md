@@ -1,3 +1,3 @@
 # FizzButt
  
-a template for JavaScript Remainder ? using If & Else if statements
+a template for the JavaScript Remainder Operation using IF & ELSE IF statements
